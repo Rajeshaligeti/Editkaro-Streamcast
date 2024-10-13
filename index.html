@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/kTcUMJ9kxjdpE1e2aCq8plnV7rP/JeBd5Uy6URxu3Y+h+I5s+Y/ZQc/+Tn91JHSt8QGNxynqSkf6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="Images/logo.png" alt="Editkaro.in Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- Hamburger Menu for Mobile -->
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="overlay"></div>
+        <div class="intro">
+            <h2>Welcome to Editkaro.in</h2>
+            <p>Your one-stop solution for social media marketing and video editing services.</p>
+            <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>
+            At Editkaro.in, we specialize in creating captivating and engaging video content tailored for social media and digital platforms. From short-form clips to long-form documentaries, we bring stories to life with creativity, precision, and a deep understanding of modern media trends.
+            Our talented team of video editors and designers works closely with brands, creators, and businesses to produce dynamic video content, including eCommerce ads, football edits, gaming highlights, and much more. We pride ourselves on our ability to color grade, animate, and craft visually stunning videos that capture attention and drive engagement.
+            Let us help you tell your story with style and impact!
+        </p>
+    </section>
+    
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <h2>Our Work</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="short-form">Short-form Videos</button>
+            <button class="filter-btn" data-filter="long-form">Long-form Videos</button>
+            <button class="filter-btn" data-filter="gaming">Gaming Videos</button>
+            <button class="filter-btn" data-filter="football">Football Edits</button>
+            <button class="filter-btn" data-filter="ecommerce">eCommerce Ads</button>
+            <button class="filter-btn" data-filter="documentary">Documentary Style</button>
+            <button class="filter-btn" data-filter="color-grading">Color Grading</button>
+            <button class="filter-btn" data-filter="anime">Anime Videos</button>
+            <button class="filter-btn" data-filter="ads">Ads</button>
+        </div>
+        <div class="portfolio-items">
+            <!-- Example Portfolio Item -->
+            <div class="portfolio-item" data-category="football">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1LlPn6ACK4uc7RIHHxC617MbpWg3WPwdK/preview" frameborder="0" allowfullscreen title="Football Edit 1"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Football Edit 1</h3>
+                    <p>Dynamic football highlight edits showcasing intense match moments.</p>
+                </div>
+            </div>
+            <!-- Repeat similar blocks for other portfolio items -->
+            <!-- Gaming Videos -->
+            <div class="portfolio-item" data-category="gaming">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/13YxW_9aOEQVwZckVR8LZRPK6xAWsxUYe/preview" frameborder="0" allowfullscreen title="Gaming Video 1"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Gaming Video 1</h3>
+                    <p>Engaging gaming videos capturing epic gameplay and strategies.</p>
+                </div>
+            </div>
+            <!-- eCommerce Ads -->
+            <div class="portfolio-item" data-category="ecommerce">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1WvF0RNkmXyJDmDYicLShM1EJ_hrAvQ0m/preview" frameborder="0" allowfullscreen title="eCommerce Ad 1"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>eCommerce Ad 1</h3>
+                    <p>Creative eCommerce advertisements driving sales and engagement.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="ecommerce">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/19pGELOcPCiRE9MvFSgVGW0uU2kqoX1C-/preview" frameborder="0" allowfullscreen title="eCommerce Ad 2"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>eCommerce Ad 2</h3>
+                    <p>Innovative ads tailored to boost your online store's visibility.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="ecommerce">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1KWDEYFB7kpZrsBBNmM1SC_GL9GtjbRX6/preview" frameborder="0" allowfullscreen title="eCommerce Ad 3"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>eCommerce Ad 3</h3>
+                    <p>High-impact eCommerce ads designed to convert viewers into customers.</p>
+                </div>
+            </div>
+
+            <!-- Color Grading -->
+            <div class="portfolio-item" data-category="color-grading">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1Z44prGPhxNrI-EAnlAIjYPBaCcKsl-70/preview" frameborder="0" allowfullscreen title="Color Grading 1"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Color Grading 1</h3>
+                    <p>Professional color grading to enhance the visual appeal of your videos.</p>
+                </div>
+            </div>
+
+            <!-- Documentary Style -->
+            <div class="portfolio-item" data-category="documentary">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1VKakYuT5RbpBcYOVIqp_KXwPzZGtK6fv/preview" frameborder="0" allowfullscreen title="Documentary Style 1"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Documentary Style 1</h3>
+                    <p>Captivating documentary-style videos that tell compelling stories.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="documentary">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1LMBXgn8gw0LD2LjsPmCR_pQXCacfZAV9/preview" frameborder="0" allowfullscreen title="Documentary Style 2"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Documentary Style 2</h3>
+                    <p>In-depth documentary videos highlighting important narratives.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="documentary">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1Us9oO28sjfLtelPR5ZZ_GL9KlhESFeD6/preview" frameborder="0" allowfullscreen title="Documentary Style 3"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Documentary Style 3</h3>
+                    <p>Engaging documentary-style content that resonates with audiences.</p>
+                </div>
+            </div>
+
+            <!-- Anime Long Form -->
+            <div class="portfolio-item" data-category="anime">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/12DKvqdCPlauiWfQxAFlfANfOa19iT4Cn/preview" frameborder="0" allowfullscreen title="Anime Long Form 1"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Anime Long Form 1</h3>
+                    <p>Immersive anime videos with captivating storylines and visuals.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="anime">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1ULDUrM-j-fx40g7HgA6nggZPvCIbdR2_/preview" frameborder="0" allowfullscreen title="Anime Long Form 2"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Anime Long Form 2</h3>
+                    <p>High-quality anime productions with stunning color grading.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="anime">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1phDRwovujmjm77B6vT0NnVfvX9Fb8EM2/preview" frameborder="0" allowfullscreen title="Anime Long Form 3"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Anime Long Form 3</h3>
+                    <p>Engaging anime content that brings characters to life.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="anime">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1DlDYiUlyCRQyBl-neNiCIV3szQnC-HtO/preview" frameborder="0" allowfullscreen title="Anime Long Form 4"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Anime Long Form 4</h3>
+                    <p>Dynamic anime videos with exceptional editing and storytelling.</p>
+                </div>
+            </div>
+
+            <!-- Long Videos -->
+            <div class="portfolio-item" data-category="long-form">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/159CqKZBe0K7TcAe7C9_8YxOqBY2wreRa/preview" frameborder="0" allowfullscreen title="Long Video 1"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Long Video 1</h3>
+                    <p>Comprehensive long-form videos covering detailed topics.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="long-form">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/12MfFG1fLFB_CvPKFO6gnPI4DjPAua4Dr/preview" frameborder="0" allowfullscreen title="Long Video 2"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Long Video 2</h3>
+                    <p>Extended videos providing in-depth insights and analysis.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="long-form">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1fi_X2WKhl6-qbfXlQT7YtbOaUYAMcV7v/preview" frameborder="0" allowfullscreen title="Long Video 3"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Long Video 3</h3>
+                    <p>Engaging long-form content that keeps viewers hooked.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="long-form">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1gUIJWzf8vRuWZqXuNnxqjK_x7oaFYNdP/preview" frameborder="0" allowfullscreen title="Long Video 4"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Long Video 4</h3>
+                    <p>In-depth long-form videos with exceptional editing quality.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="long-form">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1QKFn-iT0_bB9EXXSCMqDQ5kxFCbK3VEg/preview" frameborder="0" allowfullscreen title="Long Video 5"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Long Video 5</h3>
+                    <p>Detailed long-form videos tailored to your brand's needs.</p>
+                </div>
+            </div>
+
+            <!-- Short Form -->
+            <div class="portfolio-item" data-category="short-form">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1U0ibXya1jmLwoDj1qvnhGfsGOFguAZw-/preview" frameborder="0" allowfullscreen title="Short Form 1"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Short Form 1</h3>
+                    <p>Quick and engaging short-form videos perfect for social media.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="short-form">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1Oc0P-J0UFW8bO3kgyJ99v6Qth9kCkS7e/preview" frameborder="0" allowfullscreen title="Short Form 2"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Short Form 2</h3>
+                    <p>Creative short-form content designed to captivate audiences.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="short-form">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1JFzqJtAM67m52dcsSuQJQI4J3GCGNONc/preview" frameborder="0" allowfullscreen title="Short Form 3"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Short Form 3</h3>
+                    <p>Snappy and impactful short-form videos tailored for quick consumption.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="short-form">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1ucc7-UAK-NF0VbRqAYrnKSe0FC95JK3l/preview" frameborder="0" allowfullscreen title="Short Form 4"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Short Form 4</h3>
+                    <p>Efficiently crafted short-form videos to enhance your social media presence.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="short-form">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1yU77_jxd80W0KX7dcyZDyE-nZV7ae8V1/preview" frameborder="0" allowfullscreen title="Short Form 5"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Short Form 5</h3>
+                    <p>Engaging short-form videos that capture attention in seconds.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="short-form">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/124ojD_Mb47nT47jREAGuT4B97F-6DUGK/preview" frameborder="0" allowfullscreen title="Short Form 6"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Short Form 6</h3>
+                    <p>Short and impactful videos designed to enhance your brand's message.</p>
+                </div>
+            </div>
+
+            <!-- Ads -->
+            <div class="portfolio-item" data-category="ads">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1jlj2REncMmiYNLGY1KUby7OCtIkkiqH8/preview" frameborder="0" allowfullscreen title="Ad 1"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Ad 1</h3>
+                    <p>High-conversion ads designed to maximize your reach and impact.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="ads">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1UeL5PBnsxFE0sCouQjCwQ_zd4WVygHye/preview" frameborder="0" allowfullscreen title="Ad 2"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Ad 2</h3>
+                    <p>Strategically crafted ads that resonate with your target audience.</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="ads">
+                <div class="portfolio-image">
+                    <iframe loading="lazy" src="https://drive.google.com/file/d/1J56RJ4AZaT7PpqsSmj6JZH1vhSkeH60r/preview" frameborder="0" allowfullscreen title="Ad 3"></iframe>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Ad 3</h3>
+                    <p>Creative ads that effectively communicate your brand's value proposition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-secondary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Social Media Links with Images -->
+    <div class="socials">
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="Images/facebook.png" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="Images/instagram.png" alt="Instagram" />
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="Images/twitter.png" alt="Twitter" />
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+            <img src="Images/linkedin.png" alt="LinkedIn" />
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Editkaro.in. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <!-- Add more social icons as needed -->
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
