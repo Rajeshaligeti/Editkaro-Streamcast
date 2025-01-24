@@ -1,6 +1,6 @@
-# Editkaro.in Portfolio Page  
+# Editkaro.in Portfolio 
 
-This project is a dynamic and interactive portfolio webpage designed for **Editkaro.in**, a social media marketing and video editing agency. The webpage showcases the agency's expertise in various video editing styles and serves as a professional digital portfolio.  
+This project is a dynamic and interactive portfolio webpage designed for **Editkaro.in**, a social media marketing and video editing agency. The webpage showcases the agency's expertise in various video editing styles and serves as a professional digital portfolio. It highlights the agency's ability to deliver high-quality, creative video content tailored to meet the unique needs of clients across diverse industries.
 
 ---
 
@@ -11,7 +11,7 @@ Experience the live portfolio here: [Editkaro.in Portfolio](https://rajeshaliget
 
 ## Overview  
 
-The **Editkaro.in Portfolio Page** highlights the agency's creative capabilities by organizing their work into distinct categories. It provides an interactive and visually appealing experience for visitors to explore the agency's work across various domains.  
+The **Editkaro.in Portfolio** page highlights the agency's creative capabilities by organizing their work into distinct categories. It provides an interactive and visually appealing experience for visitors to explore the agency's work across various domains.  
 
 ### Portfolio Categories  
 - **Short-form Videos**: Bite-sized, engaging videos for social media.  
@@ -48,8 +48,11 @@ Editkaro-Portfolio/
 
 ## Features
 **Categorized Portfolio**: Projects are organized into intuitive categories for easy navigation.
+
 **Responsive Design**: Optimized to work seamlessly on all devices, including desktops and mobiles.
+
 **Engaging Media**: Showcases high-quality videos and images to attract potential clients.
+
 **Interactive Elements**: Smooth transitions and dynamic content for an engaging user experience.
 
 ---
@@ -76,6 +79,3 @@ Editkaro-Portfolio/
 **Images**: Located within the assets/images/ directory in the project repository.
 
 ---
-
-## License
-This project is licensed under the MIT License. You are free to use, modify, and distribute the project under the license terms.
