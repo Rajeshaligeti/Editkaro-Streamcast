@@ -31,17 +31,17 @@ The **Editkaro.in Portfolio** page highlights the agency's creative capabilities
 
 ```plaintext  
 Editkaro-Portfolio/  
-├── index.html         
-├── css/  
-│   └── styles.css      
-├── js/  
-│   └── scripts.js     
-├── assets/  
-│   ├── images/        
-│   │   ├── logos.png   
-│   │   ├── background.jpg 
-│   └── videos/         
-│       └── [Google Drive folder](https://drive.google.com/drive/folders/1L0wwCdidoEhj30eRQd9_pkY6BZtGNC6J)  
+├── index.html
+|       
+├── styles.css
+│        
+├── script.js    
+│       
+├── images/        
+│   ├── logos.png   
+│   ├── background.jpg
+│   |-----
+│      
 └── README.md          
 ```
 ---
@@ -76,6 +76,6 @@ Editkaro-Portfolio/
 ## Media Resources
 **Videos**: Available in the shared Google Drive folder.
 
-**Images**: Located within the assets/images/ directory in the project repository.
+**Images**: Located within the [Google Drive folder](https://drive.google.com/drive/folders/1L0wwCdidoEhj30eRQd9_pkY6BZtGNC6J)  
 
 ---
