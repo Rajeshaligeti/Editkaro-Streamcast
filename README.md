@@ -1,4 +1,4 @@
-# Editkaro.in Portfolio 
+# Editkaro Streamcast 
 
 This project is a dynamic and interactive portfolio webpage designed for **Editkaro.in**, a social media marketing and video editing agency. The webpage showcases the agency's expertise in various video editing styles and serves as a professional digital portfolio. It highlights the agency's ability to deliver high-quality, creative video content tailored to meet the unique needs of clients across diverse industries.
 
