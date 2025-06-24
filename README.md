@@ -1,19 +1,19 @@
 # Editkaro Streamcast 
 
-This project is a dynamic and interactive portfolio webpage designed for **Editkaro.in**, a social media marketing and video editing agency. The webpage showcases the agency's expertise in various video editing styles and serves as a professional digital portfolio. It highlights the agency's ability to deliver high-quality, creative video content tailored to meet the unique needs of clients across diverse industries.
+This project is a dynamic and interactive Streamcast webpage designed for **Editkaro.in**, a social media marketing and video editing agency. The webpage showcases the agency's expertise in various video editing styles and serves as a professional digital Streamcast. It highlights the agency's ability to deliver high-quality, creative video content tailored to meet the unique needs of clients across diverse industries.
 
 ---
 
 ## Live Demo  
-Experience the live portfolio here: [Editkaro.in Portfolio](https://rajeshaligeti.github.io/Editkaro-Portfolio/)  
+Experience the live Streamcast here: [Editkaro.in Streamcast](https://rajeshaligeti.github.io/Editkaro-Streamcast/)  
 
 ---
 
 ## Overview  
 
-The **Editkaro.in Portfolio** page highlights the agency's creative capabilities by organizing their work into distinct categories. It provides an interactive and visually appealing experience for visitors to explore the agency's work across various domains.  
+The **Editkaro.in Streamcast** page highlights the agency's creative capabilities by organizing their work into distinct categories. It provides an interactive and visually appealing experience for visitors to explore the agency's work across various domains.  
 
-### Portfolio Categories  
+### Streamcast Categories  
 - **Short-form Videos**: Bite-sized, engaging videos for social media.  
 - **Long-form Videos**: Comprehensive content for storytelling.  
 - **Gaming Videos**: High-energy edits for the gaming community.  
@@ -30,7 +30,7 @@ The **Editkaro.in Portfolio** page highlights the agency's creative capabilities
 ## Project Structure  
 
 ```plaintext  
-Editkaro-Portfolio/  
+Editkaro-Streamcast/  
 ├── index.html
 |       
 ├── styles.css
@@ -47,7 +47,7 @@ Editkaro-Portfolio/
 ---
 
 ## Features
-**Categorized Portfolio**: Projects are organized into intuitive categories for easy navigation.
+**Categorized Streamcast**: Projects are organized into intuitive categories for easy navigation.
 
 **Responsive Design**: Optimized to work seamlessly on all devices, including desktops and mobiles.
 
@@ -67,7 +67,7 @@ Editkaro-Portfolio/
 ---
 
 ## Usage
-1. Visit the live portfolio page.
+1. Visit the live Streamcast page.
 2. Explore various video categories from the homepage.
 3. Click on a category to view specific projects and media content.
 
