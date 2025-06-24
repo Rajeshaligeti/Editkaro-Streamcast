@@ -1,4 +1,4 @@
-# Editkaro Streamcast 
+# Editkaro Streamcast 📹📺
 
 This project is a dynamic and interactive Streamcast webpage designed for **Editkaro.in**, a social media marketing and video editing agency. The webpage showcases the agency's expertise in various video editing styles and serves as a professional digital Streamcast. It highlights the agency's ability to deliver high-quality, creative video content tailored to meet the unique needs of clients across diverse industries.
 
@@ -8,7 +8,7 @@ This project is a dynamic and interactive Streamcast webpage designed for **Edit
 Experience the live Streamcast here: [Editkaro.in Streamcast](https://rajeshaligeti.github.io/Editkaro-Streamcast/)  
 
 ---
-
+https://github.com/user-attachments/assets/0d23a408-19b5-48bf-8995-b5ec983c7797
 ## Overview  
 
 The **Editkaro.in Streamcast** page highlights the agency's creative capabilities by organizing their work into distinct categories. It provides an interactive and visually appealing experience for visitors to explore the agency's work across various domains.  
